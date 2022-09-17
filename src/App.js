@@ -1,4 +1,6 @@
+import React from 'react';
 import './App.css';
+import Buttons from './components/Buttons';
 
 function App() {
   return (
@@ -8,11 +10,10 @@ function App() {
           this is the door
         </p>
       </div>
-      <div className='App-panel'>
-      <p>
-        this is the control panel
-      </p>
+      <div className="App-panel">
+          <Buttons />
       </div>
+      
     </div>
   );
 }

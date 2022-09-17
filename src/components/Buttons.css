@@ -1,0 +1,27 @@
+.button {
+    margin-right: 20px;
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-family:monospace;
+    font-size: 50%;
+    background-attachment: fixed;
+}
+button:hover {
+    background-color: #706b6b;
+}
+
+button {
+    width: 33%;
+    height: 5vh;
+    background-color:#2f2f2f;
+    color: white;
+    border: 0px;
+
+}
+
+.zero {
+    width: 40%;
+}
