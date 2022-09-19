@@ -1,19 +1,15 @@
 import React from 'react';
 import './App.css';
-import Buttons from './components/Buttons';
+import Display from './components/Display';
 
 function App() {
   return (
     <div className="App">
       <div className="App-door">
-        <p>
-          this is the door
-        </p>
       </div>
       <div className="App-panel">
-          <Buttons />
+          <Display />
       </div>
-      
     </div>
   );
 }
