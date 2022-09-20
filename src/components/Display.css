@@ -1,24 +1,16 @@
-.Display {
-    position: absolute;
-    display: grid;
-    margin-left: 40px
+* {
+  border: none;
 }
 
 .Timer {
-    position: relative;
-    height: 5vh;
-    display: grid;
-    width: 25vw;
-    background-color: #5e5e5e;
-}
-.Buttons {
-    margin-right: 20px;
-    position: relative;
-    width: 100%;
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    font-family:monospace;
-    font-size: 50%;
-    background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  margin: 10pt;
+  font-size: 40pt;
+  text-align: center;
+  border-radius: 20pt;
+  justify-content: center;
+  height: 60pt;
+  width: 180pt;
+  background-color: #cac5c5;
 }
