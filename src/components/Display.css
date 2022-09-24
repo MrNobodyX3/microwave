@@ -1,0 +1,16 @@
+* {
+  border: none;
+}
+
+.Timer {
+  display: flex;
+  flex-direction: column;
+  margin: 10pt;
+  font-size: 40pt;
+  text-align: center;
+  border-radius: 20pt;
+  justify-content: center;
+  height: 60pt;
+  width: 180pt;
+  background-color: #cac5c5;
+}

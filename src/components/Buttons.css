@@ -1,0 +1,15 @@
+* {
+  border: none;
+}
+
+.Numbers {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  font-size: 40pt;
+}
+
+.Other {
+  display: flex;
+  background-color: #cac5c5;
+}
