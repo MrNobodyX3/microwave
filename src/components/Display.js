@@ -7,11 +7,15 @@ import "./Display.css";
 */
 
 const Display = (props) => {
-  const convert = () => {};
+  const minutes = () => Math.floor(props.current / 60);
+  const seconds = () => Math.floor(props.current - minutes() * 60);
+  // must type in seconds to work properly, woops!
   return (
     <div className="Display">
       <div className="Timer">
-        <p>{props.show}</p>
+        <p>
+          {minutes()}:{seconds()}
+        </p>
       </div>
     </div>
   );
